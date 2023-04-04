@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 20px “Roboto”, sans-serif;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    -webkit-font-smoothing: antialiased !important;
+    }
+
+    header {
+        height: 40px;
+        padding: 30px;
+        text-align: left;
+        background: red;
+        overflow: hidden;
+        }
+
+        
+        .menu {
+            background-color: rgb(247, 247, 247);
+            overflow: hidden;
+            }
+            .menu ul{
+            margin-right: 10%;
+            margin-left: 10%;
+            }
+            .menu ul, li{
+            padding: 0;
+            margin: 0;
+            }
+            .menu li, a {
+            color: #ffffff;
+            text-decoration: none;
+            display: inline-block;
+            }
+            .menu a {
+            padding: 15px 30px;
+            
+            }
+
+
+            .menu a:hover{
+                background-color: white;
+                color: black;
+                }
+                 
+
+                .row {
+                    padding: 10px;
+                    }
+                    70
+                    #secao1 {
+                    float: left;
+                    width: 70%;
+                    background-color: greenyellow;
+                    margin: 10px;
+                    }
+                    #secao2 {
+                    float: left;
+                    width: 25%;
+                    background-color: yellow;
+                    margin: 10px;
+                    }
+                    .row::after {
+                    content: “”;
+                    display: table;
+                    clear: both;
+                    }
+                    
+
+                    rodape {
+                        padding: 30px;
+                        background: white;
+                        text-align: center;
+                        margin-top: 20px;
+                        }
+
+
+                        
+
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.generic_class {
+	font-family: 'Open Sans', sans-serif;
+}
